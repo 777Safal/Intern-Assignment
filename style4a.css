@@ -1,0 +1,38 @@
+.outer{
+    border:5px solid grey; 
+    width:300px;
+    height:430px;
+  }
+  .inA{
+    border:5px solid grey; 
+    width:260px;
+    height:150px;
+    background-color:pink;
+    margin:10px 8px 0px 15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .inA div{
+    border:5px solid grey;
+    color:white;
+    width:60%;
+    height:50px;
+    font-size:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:rgb(200,191,231);
+    text-shadow:-1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+  }
+  .inB{
+    border:5px solid grey; 
+    width:260px;
+    height:235px;
+    background-color:rgb(200,191,231);
+    margin:2px 8px 0px 15px;
+    font-size:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
